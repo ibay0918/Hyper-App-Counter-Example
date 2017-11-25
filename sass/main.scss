@@ -1,0 +1,41 @@
+@import url( 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+@import "reset";
+
+body {
+  font-family: 'Roboto', sans-serif;
+  // background: purple;
+}
+
+.CounterRoot{
+  margin: 25px auto;
+  width: 50%;
+  h1 {
+    font-weight: 100;
+    font-size: 50px;
+  }
+
+  h3 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .ContentArea{
+    text-align: center;
+  }
+
+  .ButtonsArea{
+    padding: 20px 15px;
+    text-align: center;
+    .minus, .plus{
+      display: inline-block;
+      padding: 20px;
+      background: black;
+      color: white;
+      margin: 10px 20px;
+      &:hover{
+        background: lightblue;
+        cursor: pointer;
+      }
+    }
+  }
+}
